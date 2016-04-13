@@ -1,0 +1,29 @@
+{
+  "name": "angularjs-webapp-init",
+  "authors": [
+    "iramgutierrez <iramgutzglez@gmail.com>"
+  ],
+  "description": "Init for AngularJS Web App",
+  "main": "build/index.html",
+  "moduleType": [],
+  "keywords": [
+    "angularjs",
+    "js",
+    "gulp",
+    "html",
+    "webapp"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.5.3",
+    "bootstrap": "^3.3.6"
+  }
+}
