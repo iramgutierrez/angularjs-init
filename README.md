@@ -7,6 +7,8 @@
 
 ### Installation
 
+Run:
+
 ```
 npm install
 ```
@@ -14,6 +16,8 @@ npm install
 ```
 bower install
 ```
+
+Copy env.js.example to env.js and configure environment params
 
 ### Build
 
