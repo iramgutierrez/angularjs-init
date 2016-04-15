@@ -13,7 +13,23 @@ angular
           controller : 'HomeController',
           resolve : {
             auth : authProvider,
-            language : languageProvider            
+            language : languageProvider
+          }
+        })
+        .when('/teams', {
+          templateUrl: 'app/views/teams/index/template.html',
+          controller : 'TeamIndexController',
+          resolve : {
+            auth : authProvider,
+            language : languageProvider
+          }
+        })
+        .when('/teams/:id', {
+          templateUrl: 'app/views/teams/show/template.html',
+          controller : 'TeamShowController',
+          resolve : {
+            auth : authProvider,
+            language : languageProvider
           }
         })
 

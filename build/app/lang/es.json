@@ -6,5 +6,8 @@
   "another_action" : "otra acción",
   "another_link" : "otro enlace",
   "search" : "buscar",
-  "submit" : "enviar"
+  "submit" : "enviar",
+  "teams" : "equipos",
+  "show" : "ver",
+  "team" : "equipo"
 }

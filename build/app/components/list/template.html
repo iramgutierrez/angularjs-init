@@ -1,0 +1,8 @@
+<ul class="list-group List">
+  <li ng-repeat=" (key ,item) in data track by $index" class="List-item">
+     <div href="" class="padding-20 list-group-item" ng-click="active(key)" ng-class="{active : isActive(key) }" >
+       {{ item.name }}
+       <a ng-if="entity" href="#/{{ entity+'/'+item.id}}" class="btn btn-default pull-right">{{ 'show' | language:true }}</a>
+     </div>
+  </li>
+</ul>

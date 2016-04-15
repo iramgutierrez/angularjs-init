@@ -9,7 +9,7 @@ angular
           // TODO Auth
           $timeout(function(){
             deferred.resolve(true);
-          } , 200);
+          } , 100);
 
           return deferred.promise;
 
